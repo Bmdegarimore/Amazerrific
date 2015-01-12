@@ -22,7 +22,7 @@ header{
 main{
 	background: white;
 	overflow: auto;
-	text-align: center;
+
 }
 header h1{
 	float: left;
@@ -54,4 +54,7 @@ footer .left {
 footer .sitemap {
 	float: right;
 	width: 285px;
+}
+.center{
+	text-align: center;
 }
