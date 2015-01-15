@@ -1,60 +1,106 @@
-body{
+body {
 	background: #f9e933;
-	font-family: "Times New Roman";
+	font-family: 'Droid Sans', sans-serif;
 }
 
+header {
+	background: white;
+	border-bottom: 1px solid #ddd;
+	padding: 25px 0 25px 0;
+}
 
-header, main, footer{
+main {
+	display: block;
+	background: white;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+.leftmain{
+	margin-right: 10%;
+}
+
+img{
+	margin-left: 10%;
+}
+
+header, footer {
+	padding-bottom: 5%;
+}
+
+header, main, footer {
 	min-width: 855px;
+	overflow: hidden;
 }
 
-header.container, main.container, footer.container{
-	max-width: 855px;
+header .container, main .container, footer .container {
+	width: 855px;
 	margin: auto;
 }
 
-header{
-	background: white;
-	overflow: auto;
-	
-}
-
-main{
-	background: white;
-	overflow: auto;
-
-}
-header h1{
+header h1, .contact, .left {
 	float: left;
 	width: 570px;
 }
 
-header nav{
+header nav, .sitemap, .right{
 	float: right;
 	width: 285px;
 }
 
-h1,h2,h3,h4{
-	font-family: georgia;
-}
-
-main .left {
+h1,h5 {
+	font-size: 3em;
 	float: left;
 	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
 }
 
-main .right {
-	float: right;
-	width: 285px;
+h5 {
+	font-size: 120%;
+	margin-bottom: 2.5%;
 }
-footer .left {
+
+footer{
+	margin-top: 5%;
+}
+
+h1 {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h2, h3{
+	font-weight: bold;
+	font-size: 145%;
+	padding-top: 5%;
+}
+
+.left{
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+h2{
+	font-weight: bold;
+}
+ul{
+	overflow: hidden;
+
+}
+.sitemap ul{
+	display: block;
+	width: 50%;
 	float: left;
-	width: 570px;
 }
-footer .sitemap {
-	float: right;
-	width: 285px;
+.sitemap li{
+	display: inline-block;
+	width: 50%;
 }
-.center{
-	text-align: center;
-}
+
