@@ -104,3 +104,39 @@ ul{
 	width: 50%;
 }
 
+.tabs a span{
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span .active{
+	background: white;
+}
+
+.content {
+	padding: 40px 20px 40px 20px;
+	border-radius: 0 5px 5px 5px;
+	background: grey;
+}
+
+.content button {
+	font-weight: bold;
+	padding: 0 5px 0 5px;
+	border-radius: 3px;
+	background: #ccc;
+	margin-left: 5px;
+	font-size: 130%;
+}
+
+.content li {
+	border-radius: 5px;
+	padding: 3px;
+	background: white;
+	margin: 5px 5px 15px 0;
+}
+
