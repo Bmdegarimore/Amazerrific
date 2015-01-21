@@ -37,8 +37,14 @@ var main = function(){
 			$content = $("<ul>");
 
 			for (i = toDos.length-1; i >= 0; i--) {
-			$content.append($("<li>").text(toDos[i]));
+			$input = $("<input>"),
+			$button = $("<button>").text("-");
+			$content.append($button, $("<li>").text(toDos[i],'</li>'));
+			$button.on("click", function () {
+				$('<li>').hide();
+			});
 			}
+
 		} 
 
 		else if ($element.parent().is(":nth-child(2)")) {
@@ -46,7 +52,13 @@ var main = function(){
 			$content = $("<ul>");
 
 			toDos.forEach(function (todo) {
-			$content.append($("<li>").text(todo));
+			$button = $("<button>").text("-");
+			$content.append($button, $("<li class='hide'>").text(todo, '</li>'));
+
+			$button.on("click", function () {
+				$(".hide").hide();
+			});
+
 			});
 		} 
 
@@ -73,4 +85,5 @@ var main = function(){
 		$(".tabs a:first-child span").trigger("click");
 
 };
+
 $(document).ready(main);
