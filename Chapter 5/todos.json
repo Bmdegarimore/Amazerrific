@@ -1,26 +1,28 @@
+//Json for the Tag section
+//creates seperate Json elements per section
 [
 	{
 		"description" : "Get groceries",
-		"tags" : [ "shopping", "chores" ]
+		"tags" : [ "Shopping", "Chores" ]
 	},
 	{
 		"description" : "Make up some new ToDos",
-		"tags" : [ "writing", "work" ]
+		"tags" : [ "Writing", "Work" ]
 	},
 	{
 		"description" : "Prep for Monday's class",
-		"tags" : [ "work", "teaching" ]
+		"tags" : [ "Work", "Teaching" ]
 	},
 	{
 		"description" : "Answer emails",
-		"tags" : [ "work" ]
+		"tags" : [ "Work" ]
 	},
 	{
 		"description" : "Take Gracie to the park",
-		"tags" : [ "chores", "pets" ]
+		"tags" : [ "Chores", "Pets" ]
 	},
 	{
 		"description" : "Finish writing this book",
-		"tags" : [ "writing", "work" ]
+		"tags" : [ "Writing", "Work" ]
 	}
 ]
