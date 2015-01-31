@@ -1,5 +1,3 @@
-//Json for the Tag section
-//creates seperate Json elements per section
 [
 	{
 		"description" : "Get groceries",
