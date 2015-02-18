@@ -1,0 +1,26 @@
+[
+	{
+		"description" : "Get groceries",
+		"tags" : [ "Shopping", "Chores" ]
+	},
+	{
+		"description" : "Make up some new ToDos",
+		"tags" : [ "Writing", "Work" ]
+	},
+	{
+		"description" : "Prep for Monday's class",
+		"tags" : [ "Work", "Teaching" ]
+	},
+	{
+		"description" : "Answer emails",
+		"tags" : [ "Work" ]
+	},
+	{
+		"description" : "Take Gracie to the park",
+		"tags" : [ "Chores", "Pets" ]
+	},
+	{
+		"description" : "Finish writing this book",
+		"tags" : [ "Writing", "Work" ]
+	}
+]

@@ -1,0 +1,167 @@
+body {
+	background: #f9e933;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+header {
+	background: white;
+	border-bottom: 1px solid #ddd;
+	padding: 25px 0 25px 0;
+}
+
+main {
+	display: block;
+	background: white;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+.leftmain{
+	margin-right: 10%;
+}
+
+img{
+	margin-left: 10%;
+}
+
+header, footer {
+	padding-bottom: 5%;
+}
+
+header, main, footer {
+	min-width: 855px;
+	overflow: hidden;
+}
+
+header .container, main .container, footer .container {
+	width: 855px;
+	margin: auto;
+}
+
+header h1, .contact, .left {
+	float: left;
+	width: 570px;
+}
+
+header nav, .sitemap, .right{
+	float: right;
+	width: 285px;
+}
+
+h1,h5 {
+	font-size: 3em;
+	float: left;
+	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h5 {
+	font-size: 120%;
+	margin-bottom: 2.5%;
+}
+
+footer{
+	margin-top: 5%;
+}
+
+h1 {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h2, h3{
+	font-weight: bold;
+	font-size: 145%;
+	padding-top: 5%;
+}
+
+.left{
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+h2{
+	font-weight: bold;
+}
+ul{
+	overflow: hidden;
+
+}
+.sitemap ul{
+	display: block;
+	width: 50%;
+	float: left;
+}
+.sitemap li{
+	display: inline-block;
+	width: 50%;
+}
+
+.tabs a span{
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span .active{
+	background: white;
+}
+
+.content {
+	padding: 40px 20px 40px 20px;
+	border-radius: 0 5px 5px 5px;
+	background: grey;
+}
+
+.content button {
+	font-weight: bold;
+	padding: 0 5px 0 5px;
+	border-radius: 3px;
+	background: #ccc;
+	margin-left: 5px;
+	font-size: 130%;
+}
+
+.content li {
+	border-radius: 5px;
+	padding: 3px;
+	background: white;
+	margin: 5px 5px 15px 0;
+}
+
+#showhide{
+	display: none;
+}
+button{
+	 background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+p.A{
+	margin-top: 5%;
+}
+h3{
+	color: green;
+}
